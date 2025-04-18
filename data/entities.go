@@ -8,14 +8,14 @@ type Employee struct {
 }
 
 func (emp Employee) IsCool() bool {
-	if emp.Namn == "Stefan" {
+	if emp.Namn == "Olena" {
 		return true
 	}
 	return false
 }
 
 func IsCool(emp Employee) bool {
-	if emp.Namn == "Stefan" {
+	if emp.Namn == "Olena" {
 		return true
 	}
 	return false
