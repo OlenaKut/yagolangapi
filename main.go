@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -24,7 +23,7 @@ var theRandom *rand.Rand
 
 func start(c *gin.Context) {
 	//added a comment
-	c.HTML(http.StatusOK, "home.html", &PageView{Title: "test", Rubrik: "Hej Golang"})
+	c.HTML(http.StatusOK, "home.html", &PageView{Title: "test", Rubrik: "Hi Olena"})
 }
 
 // HTML

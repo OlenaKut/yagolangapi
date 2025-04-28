@@ -22,5 +22,5 @@ stages:
             # echo $(Build.SourceVersion) >> $(Build.SourcesDirectory)/TimeApp/wwwroot/ver.txt
             go test
             docker build -t git.systementor.se/olena/dbimage .
-            docker login -u olena -p olena https://git.systementor.se
+            docker login -u olena -p 18011984Aa. https://git.systementor.se
             docker push git.systementor.se/olena/dbimage
